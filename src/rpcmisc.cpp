@@ -326,7 +326,7 @@ Value verifymessage(const Array& params, bool fHelp)
 
 Value extractpubkey(const Array& params, bool fHelp)
 {
-    if (fHelp || params.size() != 3)
+    if (fHelp || params.size() != 2)
         throw runtime_error(
             "extractpubkey \"signature\" \"message\"\n"
             "\nExtracts the public key from a signature and message\n"
